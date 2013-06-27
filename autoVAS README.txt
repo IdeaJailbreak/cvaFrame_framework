@@ -6,19 +6,10 @@ AutoVAS
 
 
 Description:
-The AutoVAS module is a python script designed specifically to automatically runs an OpenVAS scan on a given target IP.  The script automatically retrieves a report of the scan results within the tmp directory.  This script can be run as a stand-alone script or as part of the CVA framework for which it was developed.  The CVAframe script calls the AutoVAS script for each different target it is given.
+The AutoVAS module is a python script designed specifically to automatically run an OpenVAS scan on a given target IP.  The script automatically retrieves a report of the scan results within the tmp directory.  This script can be run as a stand-alone script or as part of the CVA framework for which it was developed.  The CVAframe script calls the AutoVAS script for each different target it is given.
 
 
-Disclaimer:  This code has the potential to be used for malicious purposes, due to it's ability to quickly identify security risks on remote machines.
-
-Installation
-
-Usage
-
-Arguments
-
-Known Bugs
-
+Disclaimer:  			This code has the potential to be used for malicious purposes, due to it's ability to quickly identify security risks on remote machines.  It was designed to be used as a means for preventing attacks.  The responsibility for any malicious or illegal use lies solely on the person using the code.  Furthermore, there is no guarantee of fitness for any specific purpose and this code is run at the discretion of the user.
 
 
 Author:				Andre Guerlain
@@ -27,8 +18,6 @@ Project ID:			Vulnerability Assessment Within the Cloud
 Programming Language:		Python 2.6
 OS/Hardware dependencies:	Linux distribution with Python and OpenVAS properly installed.  Information regarding installation of OpenVAS can be found at their site, http://www.openvas.org/install-packages.html.  
 
-
-Disclaimer:  			This code has the potential to be used for malicious purposes, due to it's ability to quickly identify security risks on remote machines.  It was designed to be used as a means for preventing attacks.  The responsibility for any malicious or illegal use lies solely on the person using the code.  Furthermore, there is no guarantee of fitness for any specific purpose and this code is run at the discretion of the user.
 
 
 Problem Description:		This script creates and runs a task within OpenVAS on a given target machine.
